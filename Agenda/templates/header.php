@@ -1,6 +1,7 @@
 <?php
 include_once("../config/url.php");
-include_once("../config/processamento.php");
+include_once("../config/processamentoCreate.php");
+include_once("../config/processamentoEdit.php");
 ?>
 
 <html lang="pt_BR">

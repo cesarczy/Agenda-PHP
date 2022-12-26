@@ -20,12 +20,10 @@ include_once("header.php");
                         <td scope="row"><?= $contato["nome"] ?></td>
                         <td scope="row"><?= $contato["telefone"] ?></td>
                         <td class="actions">
-                            <a href="<?= $BASE_URL ?>/show.php?id=<?= $contato["id"] ?>"><i class="fas fa-eye
-check-icon"></i></a>
-
-                            <button type="submit" class="delete-btn"><i class="fas fa-times
-delete-icon"></i></button>
-                        </td>
+                            <a href="<?= $BASE_URL ?>/show.php?id=<?= $contato["id"] ?>"><i class="fas fa-eye check-icon"></i></a>
+                            <a href="<?= $BASE_URL ?>/edit.php?id=<?= $contato["id"] ?>"><i class="fas fa-edit edit-icon"></i></a>
+                            <a href="<?= $BASE_URL ?>/delete.php?id=<?= $contato["id"] ?>"><i class="fas fa-times delete-icon"></i></a>
+                            </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
