@@ -8,7 +8,7 @@ include_once("header.php");
         <input type="hidden" name="type" value="create">
         <div class="form-group">
             <label for="name">Nome do contato:</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="digite o nome" required>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="digite o nome" required>
         </div>
         <div class="form-group">
             <label for="fone">Telefone de contato:</label>
